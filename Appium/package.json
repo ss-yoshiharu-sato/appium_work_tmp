@@ -1,0 +1,15 @@
+{
+  "name": "appium_document_ja",
+  "description": "appium_document_ja",
+  "version": "0.0.0",
+  "author": "neuvecom <neuvecom@gmail.com>",
+  "scripts": {
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "dependencies": {
+    "@vivliostyle/cli": "latest"
+  },
+  "license": "MIT",
+  "private": true
+}

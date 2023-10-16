@@ -1,0 +1,101 @@
+site_name: TEST
+docs_dir: ..
+site_dir: ../../site
+
+theme:
+    name: material
+    language: 'ja'
+    palette:
+      - scheme: default
+        primary: deep purple
+    icon:
+      repo: fontawesome/brands/github
+      admonition:
+        note: octicons/tag-16
+        abstract: octicons/checklist-16
+        info: octicons/info-16
+        tip: octicons/squirrel-16
+        success: octicons/check-16
+        question: octicons/question-16
+        warning: octicons/alert-16
+        failure: octicons/x-circle-16
+        danger: octicons/zap-16
+        bug: octicons/bug-16
+        example: octicons/beaker-16
+        quote: octicons/quote-16
+
+markdown_extensions:
+- footnotes
+- meta
+- attr_list
+- admonition
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.details
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Appiumの文書:
+    - はじめに: ja/index.md
+  - 導入:
+    - Appium入門:
+      - Appiumの概要: ja/intro/index.md
+      - Appium Drivers入門: ja/intro/drivers.md
+      - Appium Clients入門: ja/intro/clients.md
+    - Appiumのシステム要件: ja/intro/requirements.md
+    - Appiumプロジェクトの歴史: ja/intro/history.md
+  - クイックスタート:
+    - はじめに: ja/quickstart/index.md
+    - Appiumのインストール: ja/quickstart/install.md
+    - Uiautomatuon2のインストール: ja/quickstart/uiauto2-driver.md
+    - テストの記述:
+      - Javaでのテスト: ja/quickstart/test-java.md
+      - JavaScriptでのテスト: ja/quickstart/test-js.md
+      - Pythonでのテスト: ja/quickstart/test-py.md
+      - Rubyでのテスト: ja/quickstart/test-rb.md
+    - 次の段階へ: ja/quickstart/next-steps.md
+  - CLIリファレンス:
+    - CLI入門: ja/cli/index.md
+    - サーバCLIの引数: ja/cli/args.md
+    - 拡張CLI: ja/cli/extensions.md
+  - ガイド:
+    - Appium 1.xからAppium 2.xへの移行: ja/guides/migrating-1-to-2.md
+    - Appium DriversとPluginの管理: ja/guides/managing-exts.md
+    - Appium設定ファイル: ja/guides/config.md
+    - Appium Serverのセキュリティ: ja/guides/security.md
+    - Capabilities（機能・能力）: ja/guides/caps.md
+    - Context（文脈・状況） API: ja/guides/context.md
+    - Settings API: ja/guides/settings.md
+    - メソッドの実行: ja/guides/execute-methods.md
+    - イベントタイミングAPI: ja/guides/event-timing.md
+    - ログフィルタリング: ja/guides/log-filters.md
+    - AppiumとSelenium Grid: ja/guides/grid.md
+    - アプリケーションバンドル・キャッシングロジック: ja/guides/caching.md
+  - デベロッパリファレンス（外部リンク[英語]）:
+    - xxx_ベースドライバ: https://appium.io/docs/en/2.0/reference/commands/base-driver/
+    - xxx_フェイクドライバ: https://appium.io/docs/en/2.0/reference/commands/fake-driver/
+  - エコシステム:
+    - Appiumのエコシステム: ja/ecosystem/index.md
+    - Appium ドライバの構築: ja/ecosystem/build-drivers.md
+    - Appium Pluginの構築: ja/ecosystem/build-plugins.md
+    - Appium 拡張の文書作成: ja/ecosystem/build-docs.md
+  - 貢献:
+    - Appiumに貢献する: ja/contributing/index.md
+    - Appiumの設定システム: ja/contributing/config-system.md
+  - 資料: ja/resources.md
+  - issue（外部リンク[英語]）: https://github.com/appium/appium/issues
+  - リファレンス（外部リンク[英語]）:
+    - appium/base-driver Commands: https://appium.io/docs/en/2.0/reference/commands/base-driver/
+    - Plugin execute-driver: https://appium.io/docs/en/2.0/reference/commands/execute-driver-plugin/
+    - Driver fake: https://appium.io/docs/en/2.0/reference/commands/fake-driver/
+    - Plugin images: https://appium.io/docs/en/2.0/reference/commands/images-plugin/
+    - Plugin relaxed-caps: https://appium.io/docs/en/2.0/reference/commands/relaxed-caps-plugin/
+    - Plugin universal-xml: https://appium.io/docs/en/2.0/reference/commands/universal-xml-plugin/
+  - 日本語訳作業メモ: ja/readme.md

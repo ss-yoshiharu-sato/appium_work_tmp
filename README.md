@@ -3,4 +3,4 @@ for own working place of Appium
 
 ## このリポジトリについて
 
-私(neuvecom)、がAppiumを利用するにあたり、作業したもののうち、公開しても問題なさそうなものをおいています。
+私（[@neuvecom](https://twitter.com/neuvecom)）、がAppiumを利用するにあたり、作業したもののうち、公開しても問題なさそうなものをおいています。
