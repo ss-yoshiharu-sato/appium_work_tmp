@@ -1,14 +1,16 @@
 # Appiumの作業場
 
-リポジトリ: [appium/appium](https://github.com/appium/appium)
-ドキュメント: [Appiumのドキュメント](https://appium.io/docs/ja/2.1/)
+## 関連リンク
+- リポジトリ: [appium/appium](https://github.com/appium/appium)
+- ドキュメント: [Appiumのドキュメント](https://appium.io/docs/ja/2.1/)
 
 ## TODO
-- バージョンアップに対応 => 2.1
+- [ ] バージョンアップに対応 => 2.1
+- [ ] Vivliostyleの環境を導入
 
 ----
 
-## ディレクトリ構成メモ
+## ディレクトリ構成
 
 - README.md（このファイル）
 - /doc/（マニュアルの翻訳用のソース）
@@ -122,43 +124,46 @@ surge
 
 ----
 
-## ドキュメントのPDF化
+## VivliostyleによりドキュメントのPDF化
 リポジトリにプルリクエストを送れない（方法がわからない）のと、すぐに手元で利用したいので、VibliostleでPDF化して持ち歩くためのメモ
 
 ### 前準備
+- nodeが必要
+  `node -v`
 - `vivliostyle.config.js`と`package.json`をどこかから持ってくる
-  package.json
-  ```js
-  {
-    "name": "<ここを変更> => appium_document_ja",
-    "description": "<ここを変更> => appium_document_ja",
-    "version": "0.0.0",
-    "author": "neuvecom <neuvecom@gmail.com>",
-    "scripts": {
-      "build": "vivliostyle build",
-      "preview": "vivliostyle preview"
-    },
-    "dependencies": {
-      "@vivliostyle/cli": "latest"
-    },
-    "license": "MIT",
-    "private": true
-  }
-  ```
-  vivliostyle.config.js
-  ```js
-  module.exports = {
-    title: 'Appium ドキュメント 日本語版PDF',
-    author: 'neuvecom <neuvecom@gmail.com>',
-    language: 'ja',
-    size: 'B5',
-    theme: '@vivliostyle/theme-techbook@^1.0.0',
-    entry: [
-      'doc/ja/index.md',
-    ],
-    workspaceDir: '.vivliostyle',
-  }
-  ```
+  - 他の案件で日本語化している作業のものから複製して、編集
+  - package.json
+    ```js
+    {
+      "name": "<ここを変更> => appium_document_ja",
+      "description": "<ここを変更> => appium_document_ja",
+      "version": "0.0.0",
+      "author": "neuvecom <neuvecom@gmail.com>",
+      "scripts": {
+        "build": "vivliostyle build",
+        "preview": "vivliostyle preview"
+      },
+      "dependencies": {
+        "@vivliostyle/cli": "latest"
+      },
+      "license": "MIT",
+      "private": true
+    }
+    ```
+  - vivliostyle.config.js
+    ```js
+    module.exports = {
+      title: 'Appium ドキュメント 日本語版PDF',
+      author: 'neuvecom <neuvecom@gmail.com>',
+      language: 'ja',
+      size: 'B5',
+      theme: '@vivliostyle/theme-techbook@^1.0.0',
+      entry: [
+        'doc/ja/index.md',
+      ],
+      workspaceDir: '.vivliostyle',
+    }
+    ```
 - `npm install`
 
 ### PDFの生成
@@ -170,5 +175,12 @@ surge
 - 対話式で設定してる部分は直接ファイルを編集すれば済む
 - `git init` と `npm install` をしているにすぎず、git の必要はないので、`npm install`のみ実行すればよい
 
-
+### スニペット
+```html
 <div style="break-before: page;"></div>
+```
+
+----
+
+## メモ
+- 
