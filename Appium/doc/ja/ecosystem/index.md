@@ -1,6 +1,8 @@
 ---
-title: The Appium Ecosystem
+title: Appiumのエコシステム
 ---
+
+# Appiumのエコシステム
 
 <!-- Appium has an ecosystem of related software and tools. In this guide we'll discuss important officially-supported and community-supported projects. -->
 Appiumには、関連するソフトウェアやツールのエコシステムがあります。この文書では、公式にサポートされている重要なプロジェクトとコミュニティでサポートされているプロジェクトについて説明します。

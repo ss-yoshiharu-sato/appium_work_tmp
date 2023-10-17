@@ -1,6 +1,8 @@
 ---
-title: Next Steps
+title: 次の段階へ
 ---
+
+# 次の段階へ
 
 <!-- Now that you've successfully set up your system for Android automation and run a simple test,
 you'll want to continue exploring this documentation. In particular, these are good guides and

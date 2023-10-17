@@ -1,6 +1,8 @@
 ---
-title: Execute Methods
+title: メソッドの実行
 ---
+
+# メソッドの実行
 
 <!-- Because the scope of commands implemented in Appium drivers is broader than the scope of commands defined by the W3C WebDriver spec, Appium needs a way for these "extended" commands to be accessible by client libraries. There are two main strategies for this: -->
 Appiumドライバで実装されるコマンドの範囲は、W3C WebDriver仕様で定義されているコマンドの範囲よりも広いため、Appiumではこれらの「拡張」コマンドをクライアントライブラリからアクセスできるようにする方法が必要です。   

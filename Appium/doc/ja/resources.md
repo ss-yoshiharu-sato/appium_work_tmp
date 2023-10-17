@@ -1,6 +1,8 @@
 ---
-title: Additional Resources
+title: 追加資料
 ---
+
+# 追加資料
 
 <!-- Here you can find links to additional Appium resources around the web: -->
 ここでは、ウェブ上の他のAppiumの資料へのリンクを紹介しています：

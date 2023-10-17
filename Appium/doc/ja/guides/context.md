@@ -1,6 +1,8 @@
 ---
-title: The Context API
+title: Context（文脈・状況）API
 ---
+
+# Context（文脈・状況）API
 
 <!-- A common feature of many app platforms is the ability for developers to embed web content inside of the platform-native app frame. This allows developers to leverage web technologies or existing web content for some or all of the app functionality. However, the additional complexity of mixing "modes" within a single application can make it difficult for automation tools that are designed to target the "native" elements and behaviours. -->
 多くのアプリプラットフォームの共通機能として、開発者はプラットフォームネイティブのアプリフレームの中にウェブコンテンツを埋め込むことができます。これにより、開発者はアプリの機能の一部または全部にウェブ技術や既存のウェブコンテンツを活用できます。しかし、1つのアプリケーション内で「モード」を混在させるという複雑さが加わることで、「ネイティブ」な要素や動作をターゲットに設計された自動化ツールでは対応が難しくなることがあります。

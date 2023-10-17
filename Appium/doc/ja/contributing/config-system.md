@@ -1,6 +1,8 @@
 ---
-title: Appium's Config System
+title: Appiumの設定システム
 ---
+
+# Appiumの設定システム
 
 <!-- Appium 2 supports [configuration files](../guides/config.md). A configuration file is intended to have (nearly) 1:1 parity with command-line arguments. An end user can supply Appium 2 with a configuration file, CLI args, or both (the args have precedence over the config file). -->
 Appium2は、[設定ファイル](../guides/config.md)をサポートしています。設定ファイルは、コマンドライン引数と（ほぼ）1対1のパリティを持つことを意図しています。エンドユーザは、Appium2に設定ファイル、CLI の引数、またはその両方を与えることができます（引数は設定ファイルよりも優先されます）。

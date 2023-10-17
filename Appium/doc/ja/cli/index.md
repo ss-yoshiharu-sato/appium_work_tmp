@@ -1,6 +1,8 @@
 ---
-title: CLI Intro
+title: CLI入門
 ---
+
+# CLI入門
 
 <!-- When you install Appium globally via `npm`, an executable shell script named `appium` is placed in your global Node `bin` folder, often also symlinked to places like `/usr/local/bin`. If your `PATH` is set up to look for programs in appropriate directory, then you will be able to run `appium` from the command line of your terminal, like any other executable. The `appium` program has three main subcommands, each of which has its own set of documentation: -->
 Appium を `npm` 経由でグローバルにインストールすると、グローバル Node の `bin` フォルダに `appium` という名前の実行可能なシェルスクリプトが置かれ、しばしば `/usr/local/bin` といった場所にシンボリックリンクされます。`PATH` が適切なディレクトリにあるプログラムを探すように設定されていれば、他と同様にターミナルのコマンドラインから `appium` を実行することができます。appium`プログラムには3つの主要なサブコマンドがあり、それぞれのサブコマンドには独自の文書が用意されています：

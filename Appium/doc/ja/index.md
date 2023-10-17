@@ -1,13 +1,14 @@
 ---
-title: Appium Documentation
+title: Appiumの文書
 ---
 
 <!---# Appium Documentation--->
-# Appiumの文書
 
 <div style="text-align: center">
   <img src="assets/images/appium-logo-horiz.png" style="max-width: 400px;" />
 </div>
+
+# はじめに
 
 <!---
 Welcome to the Appium documentation! Appium is an open-source project and ecosystem of related

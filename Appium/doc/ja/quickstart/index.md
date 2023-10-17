@@ -1,6 +1,8 @@
 ---
-title: Quickstart Intro
+title: クイックスタート はじめに
 ---
+
+# はじめに
 
 <!-- 
 Let's get up and running with Appium! To successfully use this quickstart, it's recommended that

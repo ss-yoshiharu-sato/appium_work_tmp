@@ -1,6 +1,8 @@
 ---
-title: Contributing to Appium
+title: Appiumに貢献する
 ---
+
+# Appiumに貢献する
 
 <!-- This section of Appium's documentation is for those who are interested in contributing to Appium's development. It contains developer overviews, guides, and notes. Use the navigation menu to find a specific topic. All the information in these guides assumes in-depth familiarity with Appium already. -->
 このセクションは、Appiumの開発に貢献することに興味がある人たちのためのものです。開発者の概要、ガイド、メモが含まれています。特定のトピックを見つけるには、ナビゲーションメニューを使用してください。すべての情報は、すでにAppiumに深く精通していることを前提としています。

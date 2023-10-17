@@ -1,6 +1,8 @@
 ---
-title: Migrating from Appium 1.x to Appium 2.x
+title: Appium 1.xからAppium 2.xへの移行
 ---
+
+# Appium 1.xからAppium 2.xへの移行
 
 <!---
 This document is a guide for those who are using Appium 1.x and wish to migrate to Appium 2.x. It contains a list of breaking changes and how to migrate your environments or test suites to ensure compatibility with Appium 2.0.

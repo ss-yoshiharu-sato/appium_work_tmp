@@ -1,6 +1,8 @@
 ---
-title: Log Filtering
+title: ログフィルタリング
 ---
+
+# ログフィルタリング
 
 <!-- Sometimes it might be necessary to hide sensitive information, like passwords, device identifiers, hashes, etc..., from the server log. Appium makes it possible to ensure such information is redacted in logs via the `--log-filters` command line argument. This argument allows you to provide the path to a special config file, containing one or more log obfuscation rules. -->
 パスワード、デバイス識別子、ハッシュなど、機密性の高い情報をサーバログから隠す必要がある場合があります。Appiumでは、`--log-filters`コマンドライン引数により、そのような情報を確実にログに反映できます。この引数は、1つ以上のログ難読化ルールを含む特別な設定ファイルへのパスを提供することを可能にします。

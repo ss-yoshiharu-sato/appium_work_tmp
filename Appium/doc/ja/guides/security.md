@@ -1,6 +1,8 @@
 ---
-title: Appium Server Security
+title: Appium Serverのセキュリティ
 ---
+
+# Appium Serverのセキュリティ
 
 <!-- The Appium team makes every effort to ensure the security of the Appium server. This is especially important when Appium is run in a multitenant environment, or when multiple users are running sessions on the same Appium server. In general, you can only safely enable all Appium's features if all the following are true: -->
 Appiumチームは、Appiumサーバのセキュリティを確保するためにあらゆる努力を行っています。これは、Appiumがマルチテナント環境で実行されている場合、または複数のユーザーが同じAppiumサーバ上でセッションを実行している場合に特に重要です。一般的に、Appiumのすべての機能を安全に有効にできるのは、次のすべてが当てはまる場合のみです：

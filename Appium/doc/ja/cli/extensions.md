@@ -1,6 +1,8 @@
 ---
-title: The Extension CLI
+title: 拡張CLI
 ---
+
+# 拡張CLI
 
 <!-- Appium allows for the flexible installation and management of _drivers_ (which provide Appium with the capability to automate a given platform) and *plugins* (which can augment or alter the way individual Appium commands work). For a conceptual understanding of these entities, please review the [Introduction](../intro/index.md). Management of drivers and plugins is handled by Appium's 拡張CLI. -->
 Appiumでは、_drivers_ (与えられたプラットフォームを自動化する機能を Appium に提供する) と *plugins* (個々のAppiumコマンドの動作方法を補強または変更できる) を柔軟にインストールおよび管理できます。これらの概念を理解するために、[導入] (../intro/index.md) をご覧ください。ドライバとプラグインの管理は、Appiumの拡張CLIによって処理されます。

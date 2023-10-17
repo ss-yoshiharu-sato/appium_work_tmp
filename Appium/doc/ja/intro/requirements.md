@@ -1,6 +1,8 @@
 ---
-title: Appium Requirements
+title: Appiumのシステム要件
 ---
+
+# Appiumのシステム要件
 
 <!-- The basic requirements for the Appium server are: -->
 

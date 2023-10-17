@@ -1,6 +1,8 @@
 ---
-title: Capabilities
+title: Capabilities（機能・能力）
 ---
+
+# Capabilities（機能・能力）
 
 <!-- "Capabilities" is the name given to the set of parameters used to start an Appium session. The information in the set is used to describe what sort of "capabilities" you want your session to have, for example, a certain mobile operating system or a certain version of a device. When you start your Appium session, your Appium client will include the set of capabilities you've defined as an object in the JSON-formatted body of the request. Capabilities are represented as key-value pairs, with values allowed to be any valid JSON type, including other objects. Appium will then examine the capabilities and make sure that it can satisfy them before proceeding to start the session and return an ID representing the session to your client library. -->
 

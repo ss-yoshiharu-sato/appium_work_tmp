@@ -1,6 +1,8 @@
 ---
-title: The Appium Config File
+title: Appium設定ファイル
 ---
+
+# Appium設定ファイル
 
 <!-- Instead of passing arguments on the command line to Appium, you may add them to a special config file. Appium will read values from this config file when it runs. (Please note that CLI arguments have _precedence_ over configuration files; if a value is set in a config file _and_ via CLI argument, the CLI argument is preferred.) -->
 Appiumにコマンドラインで引数を渡す代わりに、特別なconfigファイルで引数を渡せます。Appiumは実行時にこのconfigファイルから値を読み取ります。(CLI引数は設定ファイルより優先されることに注意してください; 設定ファイルに設定された値とCLI引数の両方がある場合、CLI引数の方が優先されます)

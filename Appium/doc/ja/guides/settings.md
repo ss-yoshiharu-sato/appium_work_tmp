@@ -1,6 +1,8 @@
 ---
-title: The Settings API
+title: Settings API
 ---
+
+# Settings API
 
 <!-- Appium has introduced a set of extension APIs that allow you to adjust parameters for a given session during session execution. Called "Settings", these parameters mirror the role of [Capabilities](./caps.md), but Capabilities cannot be adjusted once a session has started. Settings can be adjusted any number of times during the course of a session. -->
 Appiumは、セッションの実行中に特定のセッションのパラメータを調整できる拡張APIセットを導入しました。"Settings"というこれらのパラメータは、[Capabilities](./caps.md)の役割を反映していますが、Capabilitiesはセッションが開始されると調整できません。Settingsは、セッションの過程で何度でも調整できます。

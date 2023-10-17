@@ -1,6 +1,8 @@
 ---
-title: Appium and Selenium Grid
+title: AppiumとSelenium Grid
 ---
+
+# AppiumとSelenium Grid
 
 <!-- ## Using Selenium Grid 4+ -->
 ## Selenium Grid 4+の利用について

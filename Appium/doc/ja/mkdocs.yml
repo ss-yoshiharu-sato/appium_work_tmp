@@ -73,7 +73,7 @@ nav:
     - Appium設定ファイル: ja/guides/config.md
     - Appium Serverのセキュリティ: ja/guides/security.md
     - Capabilities（機能・能力）: ja/guides/caps.md
-    - Context（文脈・状況） API: ja/guides/context.md
+    - Context（文脈・状況）API: ja/guides/context.md
     - Settings API: ja/guides/settings.md
     - メソッドの実行: ja/guides/execute-methods.md
     - イベントタイミングAPI: ja/guides/event-timing.md
@@ -91,7 +91,7 @@ nav:
   - 貢献:
     - Appiumに貢献する: ja/contributing/index.md
     - Appiumの設定システム: ja/contributing/config-system.md
-  - 資料: ja/resources.md
+  - 追加資料: ja/resources.md
   - issue（外部リンク[英語]）: https://github.com/appium/appium/issues
   - リファレンス（外部リンク[英語]）:
     - appium/base-driver Commands: https://appium.io/docs/en/2.0/reference/commands/base-driver/

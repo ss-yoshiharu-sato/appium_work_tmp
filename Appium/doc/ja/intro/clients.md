@@ -1,6 +1,8 @@
 ---
-title: Intro to Appium Clients
+title: Appium Clients入門
 ---
+
+# Appium Clients入門
 
 <!-- For all the reasons discussed in the [main intro](./index.md), Appium is based on the [W3C
 WebDriver specification](https://w3c.github.io/webdriver/webdriver-spec.html). This means that

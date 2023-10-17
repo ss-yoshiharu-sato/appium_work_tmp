@@ -1,6 +1,8 @@
 ---
-title: Write a Test (Java)
+title: Javaでのテスト
 ---
+
+# Javaでのテスト
 
 <!-- The Appium team maintains an official [client](https://github.com/appium/java-client) for the Java programming language.
 It is built on top of [Selenium](https://github.com/SeleniumHQ/selenium).

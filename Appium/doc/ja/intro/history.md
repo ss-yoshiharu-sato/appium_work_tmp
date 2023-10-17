@@ -1,6 +1,8 @@
 ---
-title: Appium Project History
+title: Appiumプロジェクトの歴史
 ---
+
+# Appiumプロジェクトの歴史
 
 <!-- Appium has been around in one form or another since 2012. It's been under the
 direction of various individuals and organizations, and it's even been

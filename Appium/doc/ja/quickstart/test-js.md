@@ -1,6 +1,8 @@
 ---
-title: Write a Test (JS)
+title: JavaScriptでのテスト
 ---
+
+# JavaScriptでのテスト
 
 <!-- To write an Appium test in JavaScript (Node.js), we need to choose an Appium-compatible client
 library. The best-maintained library and the one the Appium team recommends using is

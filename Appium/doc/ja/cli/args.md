@@ -1,6 +1,8 @@
 ---
-title: Server CLI Args
+title: サーバCLIの引数
 ---
+
+# サーバCLIの引数
 
 <!-- To start the Appium server, you may either run `appium` or `appium server`. The `server` subcommandis considered to be the default, so if you omit it, Appium will interpret this as your request to run the Appium server. (You could run different subcommands, like `appium driver` or `appium plugin`: see the [Extensions CLI](./extensions.md) for more info). -->
 Appium サーバを起動するには、`appium` または `appium server` のどちらかを実行します。`server`サブコマンドはデフォルトとされているため、省略した場合はAppiumがAppiumサーバの起動を要求していると解釈されます。(`appium driver` や `appium plugin` など、別のサブコマンドを実行もできます。詳しくは [拡張CLI](./extensions.md) を参照してください)

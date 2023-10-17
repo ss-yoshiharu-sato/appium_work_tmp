@@ -1,6 +1,8 @@
 ---
-title: Write a Test (Python)
+title: Pythonでのテスト
 ---
+
+# Pythonでのテスト
 
 <!-- The [Appium Python Client](https://github.com/appium/python-client) is an official Appium client in Python, which is available via pypi under the [Appium-Python-Client](https://pypi.org/project/Appium-Python-Client/) package name.
 It inherits from the [Selenium Python Binding](https://pypi.org/project/selenium/), so installing the Appium Python Client includes the selenium binding. -->

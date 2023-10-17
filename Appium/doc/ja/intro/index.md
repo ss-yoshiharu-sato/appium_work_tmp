@@ -1,5 +1,5 @@
 ---
-title: Intro to Appium
+title: Appiumの概要
 ---
 
 # Appiumの概要

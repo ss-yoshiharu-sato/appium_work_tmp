@@ -1,6 +1,8 @@
 ---
-title: Building Appium Plugins
+title: Appium Pluginの構築
 ---
+
+# Appium Pluginの構築
 
 <!-- This is a high-level guide for developing Appium plugins, which is not something most Appium users need to know or care about. If you are not familiar with Appium plugins yet from a user perspective, check out the [list of plugins](./index.md#plugins) to play around with some and get an idea of the sorts of things that plugins can do. Plugins are a powerful system for augmenting Appium's functionality or changing the way Appium works. They can be distributed to other Appium users and can extend Appium's ecosystem in all kinds of interesting ways! (There is also a significant amount of overlap here with developing Appium drivers, so you may also want to check out the [building drivers](./build-drivers.md) guide for further inspiration.) -->
 これはAppiumプラグインを開発するためのハイレベルなガイドであり、ほとんどのAppiumユーザーが知る必要もなければ、気にする必要もない。Appium のプラグインをまだよく知らないという方は、[list of plugins](./index.md#plugins) を見て、いくつか遊んでみて、プラグインでできることの種類を知ることができます。プラグインは、Appiumの機能を拡張したり、Appiumの動作方法を変更したりするための強力なシステムです。プラグインは他のAppiumユーザーに配布することができ、Appiumのエコシステムをあらゆる種類の興味深い方法で拡張できます！(Appiumのドライバの開発と重なる部分も多いので、[building drivers](./build-drivers.md) ガイドもチェックしておくと、さらにインスピレーションを得られるかもしれません)

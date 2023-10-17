@@ -1,6 +1,8 @@
 ---
-title: Install the UiAutomator2 Driver
+title: Uiautomatuon2のインストール
 ---
+
+# Uiautomatuon2のインストール
 
 <!-- You can't do much with Appium unless you have a [ドライバ](../intro/drivers.md), which is an
 interface that allows Appium to automate a particular platform. -->

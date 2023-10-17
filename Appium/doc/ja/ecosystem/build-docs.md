@@ -1,6 +1,8 @@
 ---
-title: Building Docs for Appium Extensions
+title: Appium 拡張の文書作成
 ---
+
+# Appium 拡張の文書作成
 
 <!-- Once you've [built a driver](./build-drivers.md) or [built a plugin](./build-plugins.md) for Appium, you will hopefully want to document how that extension works for your users. The most basic way of doing this is to write up a quick README and keep it in the root of your project's repository. However, this can involve a lot of duplication of effort, especially when documenting things like Appium commands. -->
 Appium で [ドライバをビルド](./build-drivers.md) や [プラグインをビルド](./build-plugins.md) したら、できればその拡張機能がどう動くかを文書化したいと思うことでしょう。これを行う最も基本的な方法は、簡単なREADMEを書き上げ、プロジェクトのリポジトリのルートに置いておくことです。しかし、この方法では、特にAppiumコマンドのようなものを文書化する場合、多くの重複した労力を必要とすることがあります。

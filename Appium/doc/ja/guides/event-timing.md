@@ -1,6 +1,8 @@
 ---
-title: The Event Timing API
+title: イベントタイミングAPI
 ---
+
+# イベントタイミングAPI
 
 <!-- Appium comes with the ability to retrieve timing information about startup information and command length. This is an advanced feature that is controlled by the use of the `appium:eventTimings` capability (set it to `true` to log event timings). -->
 Appiumには、起動情報やコマンドの長さなどのタイミング情報を取得する機能が用意されています。これは、`appium:eventTimings`capabilityの使用によって制御される高度な機能です（イベントのタイミングを記録するには`true`に設定します）。

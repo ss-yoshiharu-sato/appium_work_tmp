@@ -1,6 +1,8 @@
 ---
-title: Install Appium
+title: Appiumのインストール
 ---
+
+# Appiumのインストール
 
 <!-- Installing Appium is as easy as running a single NPM command: -->
 Appiumのインストールは、NPMコマンドを1回実行するだけです：

@@ -1,6 +1,8 @@
 ---
-title: Application Bundles Caching Logic
+title: アプリケーションバンドル・キャッシングロジック
 ---
+
+# アプリケーションバンドル・キャッシングロジック
 
 <!-- Appium Base driver provides a feature which enables caching of application builds provided, for example, as `app` capability value or to endpoints similar to the `installApp` one. This article explains common caching principles, so you could create more performant and efficient test suite execution strategies. -->
 

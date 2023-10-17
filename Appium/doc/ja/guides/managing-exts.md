@@ -1,6 +1,8 @@
 ---
-title: Managing Appium Drivers and Plugins
+title: Appium DriversとPluginの管理
 ---
+
+# Appium DriversとPluginの管理
 
 <!-- To do anything useful with Appium, you need to have at least one [ドライバ](../intro/drivers.md) installed, otherwise Appium won't know how to automate anything. There is an entire [Ecosystem](../ecosystem/index.md) of drivers and plugins out there! -->
 
